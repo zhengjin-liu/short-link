@@ -43,7 +43,7 @@ public class SmsComponent {
      * @param templateId
      * @param value
      */
-    @Async("threadPoolTaskExecutor")
+//    @Async("threadPoolTaskExecutor")
     public void send(String to,String templateId,String value){
 
         long beginTime = CommonUtil.getCurrentTimestamp();

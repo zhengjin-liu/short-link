@@ -1,0 +1,21 @@
+2024-07-04 18:58:28,486 INFO [main] net.xdclass.AccountApplication [StartupInfoLogger.java : 55] Starting AccountApplication using Java 1.8.0_261 on AWGPC with PID 12332 (D:\code\short-link5\dcloud-account\target\classes started by wuyou in D:\code\short-link5)
+2024-07-04 18:58:28,490 INFO [main] net.xdclass.AccountApplication [SpringApplication.java : 659] No active profile set, falling back to default profiles: default
+2024-07-04 18:58:30,431 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-07-04 18:58:30,453 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-04 18:58:30,499 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 201] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-07-04 18:58:30,846 INFO [main] n.x.config.SnowFlakeWordIdConfig [SnowFlakeWordIdConfig.java : 42] workId:180
+2024-07-04 18:58:30,852 INFO [main] o.s.cloud.context.scope.GenericScope [GenericScope.java : 283] BeanFactory id=d2df64d4-3f34-3eb3-9927-b43e1bb04e27
+2024-07-04 18:58:31,287 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 376] Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-04 18:58:31,289 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 376] Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-04 18:58:31,695 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8001 (http)
+2024-07-04 18:58:31,706 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-04 18:58:31,707 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2024-07-04 18:58:31,707 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-07-04 18:58:31,805 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2024-07-04 18:58:31,806 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 290] Root WebApplicationContext: initialization completed in 2850 ms
+2024-07-04 18:58:33,320 INFO [main] c.a.c.s.SentinelWebAutoConfiguration [SentinelWebAutoConfiguration.java : 80] [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-07-04 18:58:34,368 WARN [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [LoadBalancerCacheAutoConfiguration.java : 82] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-04 18:58:35,512 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8001"]
+2024-07-04 18:58:35,524 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8001 (http) with context path ''
+2024-07-04 18:58:35,568 INFO [main] c.a.c.n.r.NacosServiceRegistry [NacosServiceRegistry.java : 75] nacos registry, DEFAULT_GROUP dcloud-account 172.20.10.5:8001 register finished
+2024-07-04 18:58:35,660 INFO [main] net.xdclass.AccountApplication [StartupInfoLogger.java : 61] Started AccountApplication in 7.987 seconds (JVM running for 10.659)

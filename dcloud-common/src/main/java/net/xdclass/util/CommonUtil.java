@@ -192,7 +192,7 @@ public class CommonUtil {
      * 响应HTML数据给前端
      *
      * @param response
-     * @param obj
+     * @param
      */
     public static void sendHtmlMessage(HttpServletResponse response, JsonData jsonData) {
 
@@ -225,11 +225,11 @@ public class CommonUtil {
      * @param url
      * @return
      */
-    public static String addUrlPrefix(String url){
-
-        return IDUtil.geneSnowFlakeID()+"&"+url;
-
-    }
+//    public static String addUrlPrefix(String url){
+//
+//        return IDUtil.geneSnowFlakeID()+"&"+url;
+//
+//    }
 
     /**
      * 移除URL前缀

@@ -1,0 +1,29 @@
+server:
+  port: 8001
+
+
+#应用名称
+spring:
+  application:
+    name: dcloud-account
+
+#服务注册发现
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.137.146.165:8848
+        username: nacos
+        password: nacos
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dcloud_account?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456789
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#----------sms短信配置--------------
+sms:
+  app-code: 23502470494d496db6447b34bb88b196
+  template-id: M72CB42894
